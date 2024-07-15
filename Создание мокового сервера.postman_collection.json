@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "9c4adffa-9978-4b5c-a970-82e05aac024a",
+		"name": "Создание мокового сервера",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35955158"
+	},
+	"item": [
+		{
+			"name": "Сайт прод",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.co/api",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"co"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a.mock.pstmn.io",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a.mock.pstmn.io",
+					"protocol": "https",
+					"host": [
+						"71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a",
+						"mock",
+						"pstmn",
+						"io"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a.mock.pstmn.io",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a",
+								"mock",
+								"pstmn",
+								"io"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 10 Jul 2024 07:08:18 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "164"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=039308c00feca03f"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=f2946a913fe0bc94"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1720595358"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-7hO0T/XLq3TuFViTu2ZVQQdIY+A\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Status\": {\n        \"name\": \"test\",\n        \"message\": \"success.\",\n        \"header\": \"gbg\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name:Sergei\"}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a.mock.pstmn.io/action",
+					"protocol": "https",
+					"host": [
+						"71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"action"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "post",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name:Sergei\"}",
+							"options": {
+								"raw": {
+									"language": "text"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a.mock.pstmn.io/action",
+							"protocol": "https",
+							"host": [
+								"71ae9ffe-0704-4f7d-9c7e-9c8cb2fd679a",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"action"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 10 Jul 2024 07:12:09 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "150"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=da73f44d11da093b"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=9600758ff420a409"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1720595589"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"96-S/5iQ2y1qqIInh5BwoPc+chvDJU\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Status\": {\n        \"name\": \"Sergei\",\n        \"status\":\"created\"\n        \"message\": \"success..\",\n        \"header\": \"No matching requests\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
